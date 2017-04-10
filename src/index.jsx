@@ -21,12 +21,12 @@ class AppWrapper extends React.Component {
 }
 
 var fbConfig = {
-    apiKey: "AIzaSyBfRrwXia76gzwZyafvJXStJIokMRE0Oss",
-    authDomain: "redux-fb-boilerplate.firebaseapp.com",
-    databaseURL: "https://redux-fb-boilerplate.firebaseio.com",
-    projectId: "redux-fb-boilerplate",
-    storageBucket: "redux-fb-boilerplate.appspot.com",
-    messagingSenderId: "616926593216"
+    apiKey: "AIzaSyBZPRLMHd7yYDOclfqngj-FQOa6q4XusJg",
+    authDomain: "gal-recipes.firebaseapp.com",
+    databaseURL: "https://gal-recipes.firebaseio.com",
+    projectId: "gal-recipes",
+    storageBucket: "gal-recipes.appspot.com",
+    messagingSenderId: "300680222201"
 };
 
 

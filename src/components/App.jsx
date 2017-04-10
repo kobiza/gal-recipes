@@ -7,7 +7,8 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 import AppHeader from './AppHeader.jsx';
 import Home from './Home.jsx';
-import TodoPage from './TodoPage.jsx';
+import RecipesPage from './RecipesPage.jsx';
+import RecipePage from './RecipePage.jsx';
 
 const store = makeStore();
 
@@ -22,14 +23,14 @@ class App extends React.Component {
                         <div>
                             <ul>
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="/todo">Todo</Link></li>
+                                <li><Link to="/recipes">Recipes</Link></li>
                             </ul>
 
                             <hr/>
 
                             <Route exact path="/" component={Home}/>
-                            <Route path="/todo" component={TodoPage}/>
-
+                            <Route path="/recipes" component={RecipesPage}/>
+                            <Route path="/recipe/:id" component={RecipePage}/>
                         </div>
                     </Router>
                 </div>
